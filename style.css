@@ -1,0 +1,162 @@
+/*.body{
+    display: flex;
+}*/
+.container{
+    width: 800px;
+    height: 500px;
+    margin-top: 10px;
+
+}
+.form{
+    position: relative;
+    margin-left: 400px;
+    margin-bottom: 500px;
+    padding-top: 4px;
+    width: 400px;
+    height: 100%;
+    padding-left: 0px;
+    background-color: #221919;
+}
+.right{
+    margin-left: 15px;
+    padding-top: 0px;
+
+}
+
+input{
+    margin-top: 15px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid white;
+    color: #221919;
+    background-color: #221919;
+    width: 100px;
+    padding: 10px;
+}
+label{
+    text-align: right;
+    border: none;
+    color: white;
+}
+label, input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    text-align: left;
+    background-color: #221919;
+}
+
+#name{
+
+    color: #D1A97E;
+    margin-left: 30px;
+    font-size: small;
+    padding-top: 25px;
+}
+.name{
+    margin-left: 30px;
+    border-bottom: 1px solid #D1A97E;
+    width: 250px;
+}
+#num{
+    width: 250px;
+}
+
+ 
+h1{
+    font-size: small;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+p{
+    font-size: small;
+    color: white;
+} 
+
+
+#submit{
+    color: white;
+    border:none;
+    padding: 5px;
+    width: 70px;
+    margin-top: 15px;
+    background-color: #D1A97E;
+
+}    
+.p2{
+    position: relative;
+
+    color: #D1A97E;
+    font-size: small;
+    margin-top: 10px;
+    
+}  
+.verre{
+    position: absolute;
+    margin-top: -1005px;
+    width: 405px;
+    height: 78%;
+    margin-left: 0px;
+}
+select{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: #221919;
+    color: white;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.cercle{
+    display: flex;
+    justify-content: space-around;
+}
+.four{
+    display: flex;
+    background-color: #D1A97E;
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.four p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.four span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.dinning{
+    margin-top: 55px;
+}
+@media (min-width: 300px) and (max-width: 900px) {
+.container{
+    width: 80%;
+
+} 
+}
