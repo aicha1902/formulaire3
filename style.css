@@ -5,9 +5,6 @@
     width: 800px;
     height: 500px;
     margin-top: 10px;
-
-}
-.form{
     position: relative;
     margin-left: 400px;
     margin-bottom: 500px;
@@ -16,7 +13,18 @@
     height: 100%;
     padding-left: 0px;
     background-color: #221919;
+
 }
+/*.form{
+    position: relative;
+    margin-left: 400px;
+    margin-bottom: 500px;
+    padding-top: 4px;
+    width: 400px;
+    height: 100%;
+    padding-left: 0px;
+    background-color: #221919;
+}*/
 .right{
     margin-left: 15px;
     padding-top: 0px;
@@ -94,9 +102,9 @@ p{
 }  
 .verre{
     position: absolute;
-    margin-top: -1005px;
+    margin-top: -975px;
     width: 405px;
-    height: 78%;
+    height: 74%;
     margin-left: 0px;
 }
 select{
@@ -154,9 +162,25 @@ select{
 .dinning{
     margin-top: 55px;
 }
-@media (min-width: 300px) and (max-width: 900px) {
-.container{
-    width: 80%;
 
+
+
+@media screen and (max-width:828px) {
+    container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: red;
 } 
+    P{
+    font-size: 18px;
+}
+    .btn{
+    display: inline;
+    margin-top: 15%;
+    margin-left: 60%;
+}
+.fo{
+   width: 100%; 
+}
 }
